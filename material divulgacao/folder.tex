@@ -1,0 +1,68 @@
+\documentclass{beamer}
+\usetheme{default}
+\usecolortheme{seagull}
+\usefonttheme{structurebold}
+\usenavigationsymbolstemplate{}
+\definecolor{csred}{rgb}{0.91,0.42,0.39}
+\definecolor{csgreen}{rgb}{0.5,0.79,0.62}
+\definecolor{csyellow}{rgb}{0.95,0.73,0.44}
+\definecolor{cslblue}{rgb}{0.52,0.75,0.96}
+\definecolor{csdblue}{rgb}{0.29,0.47,0.61}
+
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\begin{document}
+
+\addtobeamertemplate{frametitle}{\vskip-0.7ex}
+
+\begin{frame}
+\frametitle{\small{Minicurso}}
+\begin{center}
+	\vskip-0.3cm
+	\begin{tikzpicture}
+		\node[fill=csdblue, text=white] {
+        	\raisebox{0.6cm}[1.5cm]{%
+            \begin{minipage}{9cm}
+			\centering \Large{\textbf{Computação Científica com Python}}\\\small{\textbf{com aplicações à Oceanografia e à Biologia}}
+           	\end{minipage}
+            }
+         };
+    \end{tikzpicture}
+\end{center}
+\vskip-0.3cm
+\small{%
+\textbf{Datas:} de 13/09 a 06/10, terças e quintas, das 18:30 às 20:00\\
+\textbf{Local:} Laboratório de Informática do CFH \textemdash\ Sala 327 (30 vagas)
+}
+
+\scriptsize{%
+\begin{itemize}
+  \setlength\itemsep{0em}
+	\item[$\bullet$] Introdução ao Python: instalação, configuração e a utilização do \emph{console}. Operações aritméticas e utilização de funções matemáticas básicas.
+	\item[$\bullet$] Manipulação de listas e strings; vetores e matrizes usando SciPy e Numpy
+	\item[$\bullet$] Tratamento de dados em arquivos; leitura e escrita em arquivos; Utilização de bibliotecas para leitura de arquivos \texttt{.csv}, \texttt{.txt}, e \texttt{.xls}
+	\item[$\bullet$] Utilização da biblioteca \emph{PANDAS} para tratamento estatístico de dados.
+	\item[$\bullet$] Gráficos com a biblioteca \emph{matplotlib}
+	\item[$\bullet$] Resolução de problemas aplicados, incluindo a utilização de outras bibliotecas.
+\end{itemize}
+}
+
+\small{%
+\textbf{Inscrições e informações:} \texttt{gomicrobes@gmail.com} \textbf{até dia 08/09}
+}
+\begin{columns}
+\column{1cm}
+\column{1cm}
+\tiny{\textbf{Apoio:}}
+\column{2.5cm}
+\begin{center}\tiny{Departamento de Matemática\\CFM - UFSC}\end{center}
+\column{1.6cm}
+\includegraphics[width=1.5cm]{brasao_1678.png}
+\column{1.6cm}
+\includegraphics[width=1.5cm]{GOM1BW.png}
+\column{1.6cm}
+\includegraphics[width=1.5cm]{brasao_UFSC.png}
+\column{2cm}
+\end{columns}
+\end{frame}
+\end{document}
