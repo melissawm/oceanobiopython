@@ -6,7 +6,7 @@ Este curso foi ministrado por mim a pedido do Programa de Pós-Graduação em Oc
 
 O objetivo deste repositório é compartilhar este material, permitindo a estudantes e pesquisadores organizarem cursos semelhantes, ou mesmo estudarem de maneira independente. O material pode ser utilizado, copiado, modificado e recompartilhado à vontade, desde que seja mantido **livre e gratuito** (e, de preferência, que seja creditado a este repositório).
 
-Para entrar em contato comigo, escreva para melissa.mendonca@ufsc.br
+Para entrar em contato comigo, escreva para melissawm@gmail.com
 
 ### Pré-requisitos
 
